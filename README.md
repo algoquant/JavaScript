@@ -1,2 +1,3 @@
 # JavaScript
-JavaScript code
+JavaScript code files for various projects.
+

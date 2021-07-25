@@ -1,0 +1,16 @@
+{
+  "name": "polygon",
+  "version": "1.0.0",
+  "description": "download data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jerzy Pawlowski",
+  "license": "MIT",
+  "dependencies": {
+    "@polygon.io/client-js": "^2.1.2",
+    "axios": "^0.21.1",
+    "minimist": "^1.2.5"
+  }
+}
