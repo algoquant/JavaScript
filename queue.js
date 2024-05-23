@@ -1,3 +1,12 @@
+// Install the R package V8, for running JavaScript code in RStudio
+// install.packages("V8")
+
+// Create a new V8 context in the R prompt
+// ctxt <- V8::v8()
+
+// Launch interactive V8 JavaScript console
+// ctxt$console()
+
 // Functions for adding and removing elements from a queue.
 
 // The function RandomInt() returns a random integer between 1 and 9 (inclusive).
@@ -18,8 +27,8 @@ function pushQueue(pushv) {
 
 // Remove element from the end of the queue.
 function popQueue() {
-  let popv = positionQueue.pop();
-  console.log(popv);
+  let elementq = positionQueue.pop();
+  console.log(elementq);
   return positionQueue;
 }; // end popQueue
 
@@ -33,8 +42,8 @@ function unshiftQueue(pushv) {
 
 // Remove element from the front of the queue.
 function shiftQueue() {
-  let popv = positionQueue.shift();
-  console.log(popv);
+  let elementq = positionQueue.shift();
+  console.log(elementq);
   return positionQueue;
 }; // end shiftQueue
 
